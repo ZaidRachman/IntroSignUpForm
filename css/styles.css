@@ -85,7 +85,7 @@ input[type=text]:focus, input[type=email]:focus{
     border:none;
     padding: 15px;
     color:white;
-    margin-bottom: 4%;
+    margin-bottom: 30px;
     text-align: center;
     box-shadow: 0px 10px 0px 0px hsl(0, 100%, 60%, 40%);
 
@@ -101,7 +101,14 @@ html {
   use "max-width" when you are going from desktop to mobile
  */
 @media screen and (max-width: 576px){
+
     html{
         background-image: url("/images/bg-intro-mobile.png");
+
+
+    }
+    .centr{
+        position: relative;
+        top:0;
     }
 }
