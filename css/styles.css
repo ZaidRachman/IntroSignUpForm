@@ -1,11 +1,18 @@
 * {
 
+
 }
 h1{
-    font-weight: bold;
-    /*margin: 10px;*/
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+main{
+
+
 }
 body{
+    margin: 8%;
+
     font-family: Poppins;
     font-size: 16px;
     background:none;
@@ -15,20 +22,78 @@ body{
     /*margin-top: 10%;*/
     /*width:60%;*/
 
+}
+button{
+    width: 100%;
+    padding:20px;
+    background-color: hsl(154, 59%, 51%);
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    padding:30px;
+    margin:0;
+    box-shadow: 0px 10px 0px 0px hsl(0, 100%, 60%, 40%);
 
 
 
 
 
-    /*margin:150px;*/
+}
+form p{
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 4px;
+}
+a{
+    color:hsl(0, 100%, 74%);
+    font-weight: 700;
+    text-decoration: none;
+}
+.centr{
+    position: relative;
+    vertical-align: center;
+    top: 150px;
+
+}
+label{
+    color: black;
+    font-weight: 400;
+
+}
+input[type=text]:focus, input[type=email]:focus{
+    font-weight: 600;
+    border: solid hsl(248, 32%, 49%) 2px;
+
+}
+
+#trial{
+    font-weight: 400;
+
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    border:none;
+    padding: 15px;
+    color:white;
+    margin-bottom: 4%;
+    text-align: center;
+    box-shadow: 0px 10px 0px 0px hsl(0, 100%, 60%, 40%);
+
 }
 
 html {
     background-image: url("/images/bg-intro-desktop.png");
     background-color: hsl(0,100%, 74%);/*Grabbed from style guide*/
-
-
-
 
 
 }
