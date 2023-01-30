@@ -92,7 +92,7 @@ input[type=text]:focus, input[type=email]:focus{
 }
 
 html {
-    background-image: url("/images/bg-intro-desktop.png");
+    background-image: url("../images/bg-intro-desktop.png");
     background-color: hsl(0,100%, 74%);/*Grabbed from style guide*/
 
 
@@ -103,7 +103,7 @@ html {
 @media screen and (max-width: 576px){
 
     html{
-        background-image: url("/images/bg-intro-mobile.png");
+        background-image: url("../images/bg-intro-mobile.png");
 
 
     }
